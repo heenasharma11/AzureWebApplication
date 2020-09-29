@@ -52,7 +52,7 @@ namespace AzureWebApplication
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World! This is a new web project");
+                    await context.Response.WriteAsync("Hello World..");
                 });
 
             });
